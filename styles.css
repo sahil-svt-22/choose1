@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-color: black;
+}
+
+.message-container {
+    margin-bottom: 20px;
+    background-color: grey;
+    padding: 20px;
+
+}
+
+#game-message {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);  /* 4 columns */
+    gap: 10px;
+    padding: 20px;
+    background-color: ;
+}
+
+.color-button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: normal;
+    transition: background-color 0.3s, font-weight 0.3s;
+    border-radius: 5px;
+}
+
+.color-button.bold {
+    font-weight: bold;
+}
